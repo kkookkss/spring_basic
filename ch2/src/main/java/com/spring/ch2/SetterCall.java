@@ -10,7 +10,7 @@ import org.springframework.util.StringUtils;
 
 public class SetterCall {
 	public static void main(String[] args) throws Exception{
-		Map<String, String> map = new HashMap<>();
+		Map<String, String> map = new HashMap<String, String>();
 		map.put("year", "2021");
 		map.put("month", "10");
 		map.put("day", "1");
