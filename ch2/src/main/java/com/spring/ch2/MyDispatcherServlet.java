@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 
-import javax.servlet.annotation.WebServlet;
+//import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,7 +18,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.support.BindingAwareModelMap;
 
 // @Controller + @RequestMapping
-@WebServlet("/myDispatcherServlet")  // http://localhost/ch2/myDispatcherServlet?year=2021&month=10&day=1
+//@WebServlet("/myDispatcherServlet")  // http://localhost/ch2/myDispatcherServlet?year=2021&month=10&day=1
 public class MyDispatcherServlet extends HttpServlet {
 	@Override
 	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
